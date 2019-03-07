@@ -31,7 +31,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiply(a, b) { //eslint-disable-line
     var c = a*b;
     var resultStatement = 'The product of ' + a + ' and ' + b + ' is ' + c + '.';
-  return [c, resultStatement];
+      return [c, resultStatement];
 }
 
 // Here is the test for multiply(); uncomment it to run it
